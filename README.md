@@ -1,5 +1,5 @@
 # NetScanner
-Este script de Python, al que podríamos llamar PyScanNet, es una herramienta de escaneo de red asíncrono diseñada para descubrir hosts activos, identificar puertos abiertos y analizar servicios web. Utiliza asyncio para realizar operaciones de red concurrentes, lo que permite un escaneo eficiente de múltiples objetivos.
+Este script de Python, es una herramienta de escaneo de red asíncrono diseñada para descubrir hosts activos, identificar puertos abiertos y analizar servicios web. Utiliza asyncio para realizar operaciones de red concurrentes, lo que permite un escaneo eficiente de múltiples objetivos.
 
 Características Principales
 Detección de Hosts Activos: Comprueba si los hosts dentro de un segmento de red dado están activos, utilizando conexiones TCP a puertos comunes como una alternativa al ping ICMP (que a menudo requiere privilegios de root).
