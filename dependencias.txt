@@ -1,0 +1,16 @@
+# Dependencias del Proyecto
+
+Para ejecutar este escáner de red, la única dependencia externa necesaria es **`httpx`**.
+
+Puedes instalarla fácilmente usando pip:
+`pip install httpx`
+
+Las demás librerías (`ipaddress`, `json`, `re`, `os`, `asyncio`, `datetime`, `concurrent.futures`) son parte de la biblioteca estándar de Python y no requieren instalación adicional.
+
+---
+
+**Nota sobre Scapy:**
+
+El código incluye funcionalidades de **Scapy** comentadas. Si decides habilitar y usar Scapy (por ejemplo, para escaneos SYN o pings ICMP, que suelen ser más sigilosos), necesitarás instalarlo **adicionalmente** y ejecutar el script con **privilegios de administrador (root)**:
+
+`pip install scapy`
